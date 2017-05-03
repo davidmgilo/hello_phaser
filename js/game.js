@@ -7,7 +7,7 @@ window.onload = function () {
         create: create
     }
 
-    var game = new Phaser(800, 600, Phaser.AUTO, '', states)
+    var game = new Phaser.Game(800, 600, Phaser.AUTO, '', states)
 
     function preload() {
         //LoadManager
